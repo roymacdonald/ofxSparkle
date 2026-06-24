@@ -7,6 +7,9 @@ docs/tagfile.xml
 
 */bin/*
 !*/bin/data/
+!libs/*
+!Sparkle-2.7.0/bin/*
+
 
 # for bin folder in root
 /bin/*
@@ -18,7 +21,7 @@ docs/tagfile.xml
 [Dd]ebug*/
 [Rr]elease*/
 *.mode*
-*.app/
+
 *.pyc
 .svn/
 
@@ -33,7 +36,8 @@ example/of.entitlements
 
 Sparkle-2.7.0/data/
 example/bin/data/Frameworks/
-
+Sparkle-2.7.0/Sparkle Test App.app/
+Sparkle-2.7.0/sparkle.app/
 
 #########################
 # IDE
