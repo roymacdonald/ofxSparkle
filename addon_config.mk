@@ -36,3 +36,35 @@ common:
 	
 	# This is a bit of a hack to add the framework into the app bundle when using make
 	# ADDON_DATA = Sparkle-2.7.0/data/Frameworks
+
+
+linux64:
+	ADDON_SOURCES_EXCLUDE = libs/%
+	ADDON_INCLUDES_EXCLUDE = libs/%
+	ADDON_SOURCES =
+
+vs:
+	ADDON_SOURCES_EXCLUDE = libs/%
+	ADDON_INCLUDES_EXCLUDE = libs/%
+	ADDON_SOURCES =
+
+linuxarmv6l:
+	ADDON_SOURCES_EXCLUDE = libs/%
+	ADDON_INCLUDES_EXCLUDE = libs/%
+	ADDON_SOURCES =
+
+linuxarmv7l:
+	ADDON_SOURCES_EXCLUDE = libs/%
+	ADDON_INCLUDES_EXCLUDE = libs/%
+	ADDON_SOURCES =
+
+android/armeabi:
+	ADDON_SOURCES_EXCLUDE = libs/%
+	ADDON_INCLUDES_EXCLUDE = libs/%
+	ADDON_SOURCES =
+
+android/armeabi-v7a:
+	ADDON_SOURCES_EXCLUDE = libs/%
+	ADDON_INCLUDES_EXCLUDE = libs/%
+	ADDON_SOURCES =
+
